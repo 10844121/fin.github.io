@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SS-2P 太空漫遊</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/pruduct.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="js/product.js"></script>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<body>
+  <!--標頭-->
+  <header>
+    <div id="Header">
+      <div id="menu-wrapper">
+        <nav>
+          <ul>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="index.html" class="icon_c"><img class="index_title" src="img/title-img/title.jpg"
+                  style="height: 130px; width: 150px;"></a>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="test.html">商品</a>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="#">安全帽</a>
+              <ul class="sub-menu">
+                <li><a href="test1.html">全罩式安全帽</a></li>
+                <li><a href="test2.html">半罩式安全帽</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="#">裝備</a>
+              <ul class="sub-menu">
+                <li><a href="test3.html">手套</a></li>
+                <li><a href="text4.html">背包</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu-parent" tab-index="0">
+              <a href="aboutus.html">關於我們</a>
+            <li><a href="log.html" target="_blank"><i class="fa fa-user"></i></a></li>
+            <li><a href="buy.html" target="_blank"><i class="fa fa-shopping-cart"></i></a></li>
+            <li class="wrap">
+              <div class="search">
+                <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+              </div>
+            </li>
+            </li>
+
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+  <article>
+
+     <center><img src="img/icon/client.png" style="height: 400px;width: 400px;margin-top: 10px;"><br>
+    <h1>蔡欣穎您好!<br>歡迎來到顧客介面</h1></center>
+    
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'describe')">個人資料</button>
+      <button class="tablinks" onclick="openCity(event, 'pay')">購買紀錄</button>
+      <button class="tablinks" onclick="openCity(event, 'evaluate')">評價紀錄</button>
+    </div>
+
+    <div id="describe" class="tabcontent">
+      <h2>個人資料</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-11">
+            <hr>
+            <form method="post" action="">
+            帳&nbsp;號：<input type="text" class="box" placeholder="Your E-mail" required="required"><br><br>
+            密&nbsp;碼：<input type="text" class="box" placeholder="Your password"required="required"><br><br>
+            姓&nbsp;名：<input type="text" class="box" placeholder="Name" required="required"><br><br>
+            電&nbsp;話：<input type="text" class="box" placeholder="Your Phone Number" required="required"><br><br>
+            地&nbsp;址：<input type="text" class="box" placeholder="Your Address" required="required"><br><br>
+            <button type="Purchase" class="btn1">修改會員資料</button>
+            </form>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pay" class="tabcontent">
+      <h2>購買紀錄</h2>
+      <div class="test1">
+        <center>
+        <table>
+            <tr style="background-color:gray; color:white;width:100%">
+              <td>商品圖片</td>
+              <td>商品名稱</td>
+              <td>樣式</td>
+              <td>單價</td>
+              <td>數量</td>
+              <td>總計</td>
+              <td></td>
+            </tr>
+            <tr style="border-bottom: 1px solid black">
+              <td><img src="img/product-img/sol.png" width="150" height="150"></td>
+              <td><a href="product.html">-X-Fourteen DAIJIRO – TC-1</a></td>
+              <td>彩繪</td>
+              <td>$22000</td>
+              <td>1&nbsp;個</td>
+              <td>$22000</td>
+              <td><input class="b1" type="button" value="刪除"></td>
+            </tr>
+            <tr style="border-bottom: 1px solid black">
+              <td><img src="img/product-img/sol2.png" width="150" height="150"></td>
+              <td><a href="product2.html">-X-Fourteen – White</a></td>
+              <td>白色</td>
+              <td>$17000</td>
+              <td>1&nbsp;個</td>
+              <td>$17000</td>
+              <td><input class="b1" type="button" value="刪除"></td>
+            </tr>
+    
+            </table>
+          </center>
+    </div>
+      
+    </div>
+
+    <div id="evaluate" class="tabcontent">
+      <h2>評價紀錄</h2>
+      目前尚無任何評價
+    </div>
+  </article>
+</body>
+<footer>
+  copyright © 2020
+</footer>
+
+</html>

@@ -1,5 +1,6 @@
 #Header {
-
+  margin: 0;
+  padding: 0;
   background-color: black;
   width: 100%;
   height: 100%;
@@ -11,7 +12,11 @@
   background-color: black;
 }
 
+body{ margin: 0; padding: 0; }
+
 footer {
+  margin: 0;
+  padding: 0;
   line-height: 70px;
   text-align: center;
 }
@@ -145,6 +150,8 @@ a {
 
 
 article {
+  margin: 0;
+  padding: 0;
   background-color: white;
   width: 100%;
 }

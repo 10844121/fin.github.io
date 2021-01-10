@@ -55,6 +55,22 @@ select {
   border-radius: 4px;
 }
 
+.b1 {
+	border-radius: 10px;
+	color: white;
+	background: gray;
+	padding: 5px;
+}
+
+.text1 {
+	position: relative;
+	top: 150px;
+	left: 250px;
+	color: black;
+	font-family: 微軟正黑體;
+	font-size: 20px;
+}
+
 .btn {
   background-color: #021402;
   color: white;
@@ -71,6 +87,25 @@ select {
   background-color: #fff;
   border: 2px black solid;
 }
+
+
+.btn1 {
+  background-color: #021402;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  margin-top: 30px;
+}
+
+.btn1:hover {
+  color: black;
+  background-color: #fff;
+  border: 2px black solid;
+}
+
 
 .btnsent {
   background-color: #021402;
@@ -89,7 +124,9 @@ select {
   border: 2px black solid;
 }
 
-
+table {
+	width: 1440px !important;
+}
 .num {
   width: 10%;
   padding: 10px 10px;
